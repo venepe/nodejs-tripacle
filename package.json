@@ -1,0 +1,25 @@
+{
+  "name": "tripacle-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "start": "node server.js",
+  "private": true,
+  "author": "",
+  "dependencies": {
+    "babel": "*",
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-plugin-transform-async-to-generator": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "babel-register": "*",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "express": "*",
+    "google-distance-matrix": "^1.1.1",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {}
+}
